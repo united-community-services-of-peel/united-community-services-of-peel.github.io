@@ -1,0 +1,46 @@
+section {
+  height: 100%;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+#home {
+  background-color: blue;
+  display: flex;
+  font-size: 15px;
+  color: white;
+}
+
+#home > :first-child div {
+  flex: 0 0 50%;
+}
+
+#home > :first-child > img {
+  height:100%;
+}
+
+#home > :nth-child(2) div {
+  flex: 1;
+}
+
+#home button {
+  color: black;
+}
+
+#about {
+  background-color: red;
+}
+
+#team {
+  background-color: green;
+}
+
+#services {
+  background-color: yellow;
+}
+
+#contact {
+  background-color: orange;
+}
