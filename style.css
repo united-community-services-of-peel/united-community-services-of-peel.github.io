@@ -31,6 +31,14 @@ section {
 
 #about {
   background-color: red;
+  font-size: 15px;
+  color: white;
+}
+
+#about > :first-child > img {
+  height: 50%;
+  padding: 25px 100px 25px 100px;
+  width: 100%;
 }
 
 #team {
