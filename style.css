@@ -47,6 +47,31 @@ section {
 
 #services {
   background-color: yellow;
+  display: flex;
+}
+
+#services > :first-child {
+  flex: 0 0 50%;
+  height: 100%;
+  padding: 100px;
+}
+
+#services > :nth-child(2) {
+  flex: 1;
+  height: 100%;
+  padding: 100px;
+}
+
+#services > :first-child button {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+#services > :nth-child(2) button {
+  background-color: black;
+  height: 100%;
+  width: 100%;
 }
 
 #contact {
